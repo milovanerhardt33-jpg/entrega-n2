@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 40px;
+  font-size: 0.9rem;
+
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: $color-texto;
+    @include transition(color);
+
+    &:hover {
+      color: $color-acento;
+    }
+  }
+
+  .social-icons img {
+    width: 25px;
+    margin-right: 10px;
+  }
+}

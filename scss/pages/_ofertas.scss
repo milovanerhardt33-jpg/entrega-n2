@@ -1,0 +1,8 @@
+.ofertas {
+  @extend .grid;
+  margin-bottom: 40px;
+
+  .producto {
+    border: 2px solid $color-acento;
+  }
+}

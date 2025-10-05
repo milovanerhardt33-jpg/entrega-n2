@@ -1,0 +1,17 @@
+header {
+  @include flex-center;
+  justify-content: space-between;
+  padding: 20px 0;
+
+  nav a {
+    margin-left: 20px;
+    color: $color-texto;
+    text-decoration: none;
+    font-weight: 500;
+    @include transition(color);
+
+    &:hover {
+      color: $color-acento;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@mixin transition($props..., $time: 0.3s, $ease: ease) {
+  transition: #{join($props, ', ')} $time $ease;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
